@@ -1,0 +1,132 @@
+// Additional styles
+@use "additional-styles/utility-patterns.scss";
+@use "additional-styles/range-slider.scss";
+@use "additional-styles/toggle-switch.scss";
+@use "additional-styles/theme.scss";
+
+// // See Alpine.js: https://github.com/alpinejs/alpine#x-cloak
+// [x-cloak] {
+//   display: none;
+// }
+// AOS styles
+@use "aos/src/sass/aos.scss" with (
+  $aos-distance: 10px
+);
+
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700;800;900&display=fallback");
+/* Phone Input Container */
+/* Phone Input Container */
+/* Phone Input - Shared Border Style */
+/* Phone Input - Shared Border Style */
+.phone-input-wrapper {
+  flex: 1;
+  display: flex;
+  align-items: center;
+}
+
+.phone-input-wrapper .PhoneInput {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  gap: 0.75rem;
+  padding: 0.625rem 1rem;
+}
+
+/* Country Selector - FORCE NO BORDER/SHADOW */
+.PhoneInputCountry {
+  display: flex !important;
+  align-items: center !important;
+  position: relative !important;
+  border: 0 !important;
+  outline: 0 !important;
+  background: transparent !important;
+  box-shadow: 0 0 0 0 transparent !important;
+  padding: 0 !important;
+  margin: 0 !important;
+  margin-left: 0.5rem !important;
+}
+
+.PhoneInputCountry::before,
+.PhoneInputCountry::after {
+  display: none !important;
+}
+
+.PhoneInputCountryIcon {
+  width: 1.5rem !important;
+  height: 1.5rem !important;
+  border: 0 !important;
+  outline: 0 !important;
+  box-shadow: 0 0 0 0 transparent !important;
+  display: block !important;
+}
+
+.PhoneInputCountryIconImg {
+  display: block !important;
+  width: 100% !important;
+  height: 100% !important;
+  border: 0 !important;
+  outline: 0 !important;
+  box-shadow: none !important;
+}
+
+.PhoneInputCountrySelect {
+  position: absolute !important;
+  top: 0 !important;
+  left: 0 !important;
+  height: 100% !important;
+  width: 100% !important;
+  z-index: 1 !important;
+  border: 0 !important;
+  outline: 0 !important;
+  opacity: 0 !important;
+  cursor: pointer !important;
+  box-shadow: none !important;
+  background: transparent !important;
+}
+
+.PhoneInputCountrySelect:focus,
+.PhoneInputCountrySelect:hover,
+.PhoneInputCountrySelect:active {
+  outline: 0 !important;
+  border: 0 !important;
+  box-shadow: none !important;
+}
+
+.PhoneInputCountrySelectArrow {
+  display: block !important;
+  width: 0.4rem !important;
+  height: 0.4rem !important;
+  margin-left: 0.25rem !important;
+  border-style: solid !important;
+  border-color: #6b7280 !important;
+  border-top-width: 0 !important;
+  border-bottom-width: 1px !important;
+  border-left-width: 1px !important;
+  border-right-width: 0 !important;
+  transform: rotate(-45deg) !important;
+  opacity: 0.7 !important;
+  box-shadow: none !important;
+}
+
+/* Phone Number Input */
+.PhoneInputInput {
+  flex: 1 !important;
+  border: 0 !important;
+  outline: 0 !important;
+  box-shadow: none !important;
+  padding: 0.25rem 0.5rem !important;
+  font-size: 1rem !important;
+  line-height: 1.5 !important;
+  color: #1f2937 !important;
+  background: transparent !important;
+}
+
+.PhoneInputInput:focus {
+  outline: 0 !important;
+  border: 0 !important;
+  box-shadow: none !important;
+}
+
+.PhoneInputInput::placeholder {
+  color: #9ca3af !important;
+}

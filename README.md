@@ -1,16 +1,71 @@
-# React + Vite
+# وَصْل (Wasel) — Service Provider Marketplace
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A multi-sided marketplace platform connecting service providers with clients across Saudi Arabia and the Arab world. Built as a complete frontend SPA with a focus on intuitive user flows and clean component architecture.
 
-Currently, two official plugins are available:
+**[→ Live Demo](https://wasel1.netlify.app/)**
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+![screenshot](<img width="1353" height="4006" alt="image" src="https://github.com/user-attachments/assets/920c7445-08fe-44f9-9e1c-f7a7b4021e34" />
+)
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Overview
 
-## Expanding the ESLint configuration
+Wasel solves a real problem: finding and booking trusted service providers is fragmented and unreliable in many Arab markets. The platform brings providers and clients together in one place — with clear service categories, provider profiles, and a streamlined booking flow.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## Features
+
+- 🔍 **Dynamic provider discovery** — browse and filter providers by service category
+- 📋 **Provider profiles** — detailed listings with service info and availability
+- 📅 **Booking flow** — end-to-end client-facing request and booking system
+- 🌐 **Arab market focused** — built with Arabic-first UX in mind
+- ⚡ **Fast & responsive** — optimized for mobile users across all screen sizes
+- 🔗 **REST API integration** — real-time data fetched from a backend API
+
+---
+
+## Tech Stack
+
+| | |
+|---|---|
+| Framework | React.js |
+| Styling | Tailwind CSS |
+| Data Fetching | React Query |
+| API | REST API |
+| Routing | React Router |
+| Hosting | Netlify |
+
+---
+
+## Architecture
+
+The app is built around a component-based architecture with a clear separation between:
+
+- **Pages** — top-level route components (Home, Browse, Provider Profile, Booking)
+- **Components** — reusable UI elements shared across pages
+- **Hooks** — custom hooks handling data fetching and business logic via React Query
+- **Services** — API call abstractions keeping components clean
+
+This structure was chosen to keep the codebase scalable and easy to extend as new service categories or features are added.
+
+---
+
+## Running locally
+```bash
+git clone https://github.com/YousefMohamed117/wasel-landing.git
+cd wasel-landing
+npm install
+npm run dev
+```
+
+---
+
+## Screenshots
+
+| Home | Browse Providers | Booking Flow |
+|---|---|---|
+| ![home](<img width="1353" height="4006" alt="image" src="https://github.com/user-attachments/assets/475c827f-ea47-4c9d-8d2d-32148c3f6638" />
+) | ![booking](<img width="1353" height="4006" alt="image" src="https://github.com/user-attachments/assets/5e8c4f9c-913e-4075-b466-17742ff763b4" />
+) |

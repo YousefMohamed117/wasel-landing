@@ -4,8 +4,8 @@ A multi-sided marketplace platform connecting service providers with clients acr
 
 **[→ Live Demo](https://wasel1.netlify.app/)**
 
-![screenshot](<img width="1353" height="4006" alt="image" src="https://github.com/user-attachments/assets/920c7445-08fe-44f9-9e1c-f7a7b4021e34" />
-)
+![screenshot]<img width="1353" height="4006" alt="image" src="https://github.com/user-attachments/assets/920c7445-08fe-44f9-9e1c-f7a7b4021e34" />
+
 
 ---
 
@@ -63,9 +63,6 @@ npm run dev
 ---
 
 ## Screenshots
+<img width="1353" height="4006" alt="image" src="https://github.com/user-attachments/assets/5e8c4f9c-913e-4075-b466-17742ff763b4" />
+<img width="1368" height="925" alt="image" src="https://github.com/user-attachments/assets/29cf0d0e-20bf-4c3e-aef5-5edcf757f13c" />
 
-| Home | Browse Providers | Booking Flow |
-|---|---|---|
-| ![home](<img width="1353" height="4006" alt="image" src="https://github.com/user-attachments/assets/475c827f-ea47-4c9d-8d2d-32148c3f6638" />
-) | ![booking](<img width="1353" height="4006" alt="image" src="https://github.com/user-attachments/assets/5e8c4f9c-913e-4075-b466-17742ff763b4" />
-) |

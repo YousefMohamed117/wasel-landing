@@ -1,10 +1,9 @@
-# وَصْل (Wasel) — Service Provider Marketplace
-
+#  (Wasel) — Service Provider Marketplace
 A multi-sided marketplace platform connecting service providers with clients across Saudi Arabia and the Arab world. Built as a complete frontend SPA with a focus on intuitive user flows and clean component architecture.
 
 **[→ Live Demo](https://wasel1.netlify.app/)**
 
-<img width="1353" height="4006" alt="image" src="https://github.com/user-attachments/assets/920c7445-08fe-44f9-9e1c-f7a7b4021e34" />
+![Uploading image.png…]()
 
 
 ---

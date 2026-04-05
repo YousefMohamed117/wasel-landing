@@ -4,7 +4,7 @@ A multi-sided marketplace platform connecting service providers with clients acr
 
 **[→ Live Demo](https://wasel1.netlify.app/)**
 
-![screenshot]<img width="1353" height="4006" alt="image" src="https://github.com/user-attachments/assets/920c7445-08fe-44f9-9e1c-f7a7b4021e34" />
+<img width="1353" height="4006" alt="image" src="https://github.com/user-attachments/assets/920c7445-08fe-44f9-9e1c-f7a7b4021e34" />
 
 
 ---

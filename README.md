@@ -60,6 +60,8 @@ npm run dev
 ```
 
 ---
+#live 
+https://wasel1.netlify.app/
 
 ## Screenshots
 <img width="1353" height="4006" alt="image" src="https://github.com/user-attachments/assets/5e8c4f9c-913e-4075-b466-17742ff763b4" />
